@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "./src/",
+    ".env",
+    ".env.local"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "**/*.test.ts"
+  ],
+  "exec": "ts-node --project ./tsconfig.json --esm --files ./src/app.ts"
+}

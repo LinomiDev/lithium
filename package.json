@@ -1,0 +1,25 @@
+{
+  "name": "lithium",
+  "version": "1.0.0",
+  "description": "A temporary alternative for Linomi. Forward messages between Telegram and QQ.",
+  "repository": "git@github.com:LinomiDev/lithium.git",
+  "author": "秋雨落 <i@rain.cx>",
+  "license": "AGPL-3.0",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon --config ./nodemon.config.json"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "node-telegram-bot-api": "^0.59.0",
+    "oicq": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "@types/node-telegram-bot-api": "^0.57.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  }
+}
