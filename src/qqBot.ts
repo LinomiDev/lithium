@@ -7,7 +7,9 @@ export class QQBot {
     private client: Client;
 
     constructor(account: string) {
-        this.client = createClient(+account);
+        this.client = createClient(+account, {
+            data_dir: '../data/qq/'
+        });
 
         this.client.on('message.group', event => this.onGroupMessage(event));
         this.client.on('request.group.invite', event => this.onGroupInvite(event));
