@@ -12,6 +12,7 @@
   "dependencies": {
     "dotenv": "^16.0.2",
     "node-telegram-bot-api": "^0.59.0",
+    "nodejs-file-downloader": "^4.10.2",
     "oicq": "^2.3.1"
   },
   "devDependencies": {

@@ -1,8 +1,4 @@
-import {EventArgs, MessageEventArgs} from "./eventArgs";
-
-type Events = {
-    'message': MessageEventArgs
-}
+import {Events, EventArgs, ImageMessageEventArgs, MessageEventArgs} from './eventArgs';
 
 type EventName = keyof Events;
 
